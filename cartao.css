@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 100%;
+    max-height: 400px;
+}
+
+.cartao-geral{
+    display: flex;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 40px;
+    width: 50vw;
+    height: 75vh;
+    margin-left: 650px;
+    margin-top: 100px;
+    background-color: black;
+    box-shadow: 0px 0px 15px 5px rgb(134, 132, 132);
+}
+
+.lado-esquerdo {
+    display: flex;
+    width: 25vw;
+    background-color: rgb(168, 165, 165);
+    border-radius: 30px;    
+}
+
+.lado-direito {
+    display: flex;
+    width: 25vw;
+}
+
+.lado-esquerdo-1 {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 16vw;
+    height: 40vh;
+    margin-left: 112px;
+    margin-top: 140px;
+    background-color: black;
+    box-shadow: 0px 0px 15px 15px rgb(168, 165, 165);
+}
+
+.imagem-utilizador {
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.learning-robo {
+    padding: 6px;
+    display: flex;
+    color: white;
+    margin-top: 178px;
+    margin-left: -128px;
+    flex-direction: row;
+}
+
+.line {
+    color: white;
+    margin-top: 220px;
+    margin-left: -240px;
+}
+
+.junior-web-developer {
+    color: white;
+    font-family: Calibri;
+    margin-top: 260px;
+    margin-left: -235px;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-top: 316px;
+    margin-left: -165px;
+}
+
+.imagem-twitter {
+    margin-right: 20px;
+}
+
+.imagem-facebook {
+    margin-right: 20px;
+}
+
+.imagem-linkedin {
+    margin-right: 20px;
+}
+
+.imagem-pinterest {
+    margin-right: 20px;
+}
+
+.olá {
+    display: flex;
+    color: white;
+    font-size: 64px;
+    margin-left: 225px;
+    margin-top: 100px;
+}
+
+.quem-sou {
+    display: flex;
+    color: white;
+    font-family: calibri;
+    margin-left: -256px;
+    margin-top: 190px;
+    font-size: 18px;
+}
+
+.curriculum {
+    margin-top: 240px;
+    margin-left: -250px;
+    width: 4vw;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: Calibri;
+    font-size: 16px;
+    background-color: #1E90FF;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.curriculum:hover {
+    background-color: rgb(181, 190, 207);
+    color: white;
+    
+}
+
+.projectos {
+    margin-top: 240px;
+    margin-left: -115px;
+    width: 4vw;
+    height: 3vh;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: Calibri;
+    font-size: 16px;
+    background-color: #1E90FF;
+    cursor: pointer;
+}
+
+.projectos:hover {
+    background-color: rgb(181, 190, 207);
+    color: white;
+}
+
+.informacao {
+    display: flex;
+    text-align: justify;
+    color: white;
+    align-items: flex-end;
+    margin-left: -360px;
+    margin-right: 80px;
+    margin-top: 300px;
+    line-height: 30px;
+    font-family: Calibri;
+}
+
+.realizado {
+    display: flex;
+    color: white;
+    font-family: calibri;
+    margin-left: -410px;
+    margin-top: 475px;
+
+}
+
+.site-em-construção {
+    background-color: beige;
+    max-height: 400px;
+}
+
+.janela {
+    display: flex;
+    background-color: beige;
+    border: 4px solid black;
+    border-radius: 14px;
+    width: 25vw;
+    height: 40vh;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.background-janela {
+    display: flex;
+    background-color: white;
+    width: 25vw;
+    border-radius: 10px;
+    height: 8vh
+}
+
+.site-em-construcao {
+    display: flex;
+    font-family: Calibri;
+    margin-left: -440px;
+    margin-top: 160px;
+    font-size: 36px;
+}
+
